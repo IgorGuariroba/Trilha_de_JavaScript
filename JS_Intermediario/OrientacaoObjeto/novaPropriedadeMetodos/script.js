@@ -95,3 +95,10 @@ myPencil2.write("cdb");
 * */
 myPencil instanceof Pencil;
 
+/**
+ * otodo objeto possui uma propedade chamada prototype
+ * Que contem todas as funçoes do objetos
+ * podemos inserir com o prototype nova propriedades e metodos
+ * Criamos uma propriedade  para um objeto mesmo depois de instanciados
+ * */
+Pencil.prototype.number = 5;
